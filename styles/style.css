@@ -8,7 +8,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
+    font-size: 60px;
     font-family: "Chewy", "serif";
     color: #FFFFFF;
     height: 100px;
@@ -136,4 +136,15 @@ body
     height: 40px;
     border: 0px none;
     border-radius: 5px;
+}
+
+#bookGrid
+{
+    display: grid;
+}
+
+.bookCard
+{
+    font-size: 30px;
+    color: #FFFFFF;
 }
