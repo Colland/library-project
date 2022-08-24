@@ -1,13 +1,16 @@
 
 let myLibrary = [];
 
-function Book(author, title, numPages, finished, bookID)
+class Book
 {
-    this.author = author;
-    this.title = title;
-    this.numPages = numPages;
-    this.finished = finished;
-    this.bookID = bookID;
+    constructor(author, title, numPages, finished, bookID)
+    {
+        this.author = author;
+        this.title = title;
+        this.numPages = numPages;
+        this.finished = finished;
+        this.bookID = bookID;
+    }
 }
 
 const adderButtton = document.querySelector("#adder");
